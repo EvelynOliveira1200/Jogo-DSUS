@@ -1,4 +1,4 @@
-class Alunos {
+class Aluno {
     constructor(name, idade, turma) {
         this.id = this.generateId();
         this.name = name;
@@ -9,4 +9,4 @@ class Alunos {
         return Math.floor(Math.random() * 999) + 1;
     }
 }
-export default Alunos;
+export default Aluno;
